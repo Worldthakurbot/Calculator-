@@ -39,5 +39,5 @@ def main():
         else:
             print(f"{num1} {symbol} {num2} = {result}")
 
-if name == "main":
+if __name__ == "main":
     main()
