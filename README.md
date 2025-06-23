@@ -1,4 +1,4 @@
-#Calculator
+#CALCULATOR
 
 def add(x, y): return x + y
 def subtract(x, y): return x - y
@@ -13,8 +13,7 @@ def get_number(prompt):
             return float(input(prompt))
         except ValueError:
             print("Invalid number. Please try again.")
-
-
+            
 def main():
 
     print("Simple CLI Calculator")
